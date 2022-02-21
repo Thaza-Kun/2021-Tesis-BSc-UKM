@@ -1,0 +1,19 @@
+# Kesimpulan
+
+## Persamaan Tetangsi
+
+Tesis ini telah menerbitkan persamaan untuk tetangsi daripada prinsip-prinsip mendasar serta andaian-andaian yang minimum. Menggunakan tindakan Nambu--Goto, prinsip tindakan pegun, serta syarat keorthonormalan, tesis ini memunculkan persamaan gelombang untuk memerihalkan titik-titik ada tetangsi tersebut. Memang hal ini yang dijangkakan kerana tetangsi bebas bergetar seperti suatu gelombang.
+
+## Prinsip Ketakpastian
+
+Menggunakan persamaan kedudukan dan momentum, tesis ini telah berjaya memperoleh prinsip ketakpastian Heisenberg melalui dua kaedah. Kaedah pertama ialah melalui kurungan Poisson yang akhirnya membawa kepada penukar tertib. Melalui ketaksamaan Cauchy--Schwartz, prinsip ketakpastian Heisenberg berjaya diperoleh. Kaedah kedua ialah melalui kaedah \citet{Boichenko2018}. Perkaitan antara tegangan tetangsi $T_0$ dengan tenaga terkuantum $E=hf$ membolehkan ketakpastian Heisenberg dihampiri dalam $N=11$ matra ruang--masa.
+
+## Prinsip Ketakpastian Teritlak
+
+Banyak teori berkaitan graviti kuantum menjangkakan wujudkan pengubahsuaian prinsip ketakpastian Heisenberg menjadi prinsip ketakpastian teritlak. Teori tetangsi tidak terkecuali dalam hal ini. Teori tetangsi menjangkakan pengitlakan prinsip ketakpastian kerana wujudnya jarak terpendek yang boleh dicerap oleh tetangsi iaitu panjang tetangsi $\ell_s$. Jarak yang lebih pendek dari $\ell_s$ tidak membawa makna.
+
+Adapun begitu, dasar teori prinsip ketakpastian teritlak ini masih goyah. Kajian-kajian berkaitannya menghujahkan pengubahsuaian prinsip ketakpastian, tetapi masih tiada yang berjaya memunculkannya dari persamaan mendasar. 
+
+Mungkin perlukan pengubahsuaian terhadap persamaan untuk tindakan tetangsi. Seperti yang dilihat, kedua-dua kaedah yang menggunakan tindakan Nambu--Goto akan memunculkan prinsip ketakpastian Heisenberg. Sekiranya menggunakan tindakan lain yang mempunyai sebutan momentum kuadratik, mungkin akan muncul prinsip ketakpastian teritlak (yang juga mempunyai sebutan momentum kuadratik). Tindakan baharu ini patut boleh memunculkan semula tindakan Nambu--Goto sebagai salah satu penghampirannya.
+
+Selain itu, mungkin boleh buat perkiraan tentang pelanggaran-pelanggaran tetangsi. Jika prinsip ketakpastian dalam mekanik kuantum ditafsirkan oleh Heisenberg sebagai cerapan pelanggaran foton dan elektron, kita mungkin boleh kira pelanggaran tetangsi-tetangsi untuk memunculkan prinsip ketakpastian. Namun begitu, kaedah ini sangat bergantung kepada jenis pelanggaran tetangsi yang dipilih. Boleh jadi pelanggaran antara tetangsi elektron dengan tetangsi foton hanya akan memunculkan semula prinsip ketakpastian Heisenberg dan prinsip ketakpastian teritlak hanya akan muncul untuk pelanggaran tetangsi yang tertentu.

@@ -1,0 +1,39 @@
+---
+# Bahagian Muka
+title: "Prinsip Ketakpastian Dalam Teori Tetangsi"
+author: "Murthadza Aznam"
+matrix: "A162647"
+faculty: "Fakulti Sains dan Teknologi"
+date: '\today'
+year: "2021"
+degree: "Sarjana Muda"
+campus: "Bangi"
+
+# Bahagian Awal Tesis
+symbols: '\input{./prelims/00--symbols}'
+abbreviations: '\input{./prelims/00--abbreviations}'
+terms: '\input{./prelims/00--terms}'
+
+# This will automatically install the {remotes} package and {thesisdown}
+# Change this to FALSE if you'd like to install them manually on your own.
+params:
+  'Install needed packages for {thesisdown}': True
+  
+# Remove the hashtag to specify which version of output you would like.
+# Can only choose one at a time.
+knit: bookdown::render_book
+output:
+  thesisdown::thesis_pdf: default 
+#  thesisdown::thesis_gitbook: default        
+#  thesisdown::thesis_word: default
+#  thesisdown::thesis_epub: default
+
+en-title: 'The Uncertainty Principle in String Theory'
+enAbstract: '`r if(knitr:::is_latex_output()) paste(readLines(here::here("prelims", "00-abstract.Rmd")), collapse = "\n  ")`'
+msAbstract: '`r if(knitr:::is_latex_output()) paste(readLines(here::here("prelims", "00-abstrak.Rmd")), collapse = "\n  ")`'
+acknowledgements: '\input{./prelims/00-acknowledgements.Rmd}'
+
+bibliography: './bib/thesis.bib'
+lot: true
+lof: true
+---

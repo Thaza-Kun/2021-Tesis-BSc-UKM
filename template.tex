@@ -1,0 +1,108 @@
+\documentclass[bahasa,nohyphen]{GayaUKM}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{longtable}
+\usepackage{caption}
+\usepackage{tikz}
+\usepackage{physics}
+
+\hypersetup{colorlinks,allcolors=black}
+
+\title{$title$}
+\author{$author$}
+\authorid{$matrix$}
+\faculty{$faculty$}
+\submissiondate{$date$}
+\submissionyear{$year$}
+\degreetype{$degree$}
+\campus{$campus$}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  UNTUK DAFTAR ISTILAH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{xcolor}
+\newcommand{\tolak}{30pt}
+\newcommand{\entry}[3]{\parindent=0pt \hangindent=\tolak{{\textbf{#1}} (\textit{#2}) {#3}}\vspace{0pt}}
+\usepackage{lipsum}
+\newcommand{\dunno}{\textbf{\textcolor{red}{belum ditakrif lagi}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   HANYA UNTUK DRAF (PADAM BILA FINAL SUBMISSION)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+$if(draft)$
+  \pagestyle{fancy}
+  \fancyhf{}
+  \lhead{\today}
+  \chead{Draf}
+  \rhead{\thepage}
+$endif$
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+$if(highlighting-macros)$
+$highlighting-macros$
+$endif$
+
+\begin{document}
+
+$if(title)$
+\maketitle
+$endif$
+
+\frontmatter
+\declaration
+
+$if(msAbstract)$
+  \begin{msAbstract}
+    $msAbstract$
+  \end{msAbstract}
+$endif$
+
+$if(enAbstract)$
+  \begin{enAbstract}[$en-title$]
+    $enAbstract$
+  \end{enAbstract}
+$endif$
+
+$if(acknowledgements)$
+  \begin{acknowledgements}
+    $acknowledgements$
+  \end{acknowledgements}
+$endif$
+
+$if(toc)$
+  \tableofcontents
+$endif$
+
+$if(lof)$
+  \listoffigures
+$endif$
+
+$if(lot)$
+  \listoftables
+$endif$
+
+$if(symbols)$
+  $symbols$
+$endif$
+
+$if(abbreviations)$
+  $abbreviations$
+$endif$
+
+$if(terms)$
+  $terms$
+$endif$
+
+\mainmatter
+
+$body$
+
+$if(bibliography)$
+\bibliography{$bibliography$}
+$endif$
+
+\end{document}
